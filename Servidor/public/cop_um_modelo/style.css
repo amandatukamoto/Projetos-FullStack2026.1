@@ -1,0 +1,145 @@
+#p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 38px;
+    color:darkgreen;
+    text-align: center;
+}
+
+#d1{
+    display: flex;
+    background-color: bisque;
+    height: 120px;
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(39, 39, 165);
+    text-align: center;
+    justify-content: space-between;
+}
+ 
+img{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    justify-content: space-between;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#d2{
+    display: flex;
+    background-color: lightskyblue;
+    justify-content: space-around;
+    color:  indigo;
+    height: 42px;
+    font-size: 12px;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+   
+#p3{
+    font-family: 'Times New Roman', Times, serif;
+    color: indigo;
+    text-align: center;
+    font-size: 20px;
+}
+
+#livros{
+    height: 245px;
+    width: 192px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-iframes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container-iframes iframe{
+    width: 320px;
+    height: 320px;
+    display: block;
+}
+
+.container-iframes{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    border-style: dashed;
+    border-color: red;
+}
+
+table{
+    margin: auto;
+}
+
+td{
+    text-align: center;
+}
+
+.consulta{
+    background-color: yellow; 
+    width: 520px;
+    height: 115px;
+    margin: 20px auto;
+}
+
+.consulta ul{
+    margin-top: 10px;
+}
+
+.consulta li{
+    margin: 5px 0;
+}
+
+.consulta a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#d3{
+    display: flex;
+    background-color: bisque;
+    height: 90px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#p4{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 15px;
+}
+
+#img2{
+    display: flex;
+    height: 100px;
+    width: 98px;
+    justify-content: space-between;
+}
+
+#img3{
+    display: flex;
+    height: 100px;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.link{
+    color: darkred;
+}

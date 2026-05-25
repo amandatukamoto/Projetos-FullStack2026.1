@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>?</p>
+    </div>
+
+    <div class="flex-container">  
+    <h1>Jogo da Adivinhação</h1>
+    </div>
+
+    <h2>Número Secreto</h2>
+    <div id="arruma">
+        <p id="p1"> Escolha um número de 0 a 100 e veja o quão perto está do número secreto. O objetivo é acertar com o menor número de tentativas possível. 
+            Boa Sorte!! 🍀</p>
+    </div>
+    
+    <input type="number" id="palpite" min="0" max="100">
+    <button onclick="verificarPalpite()">Confirmar palpite!</button>
+        <p id="mensagem"></p>
+        <p id="tentativas"></p>
+        <p id="contador"></p>
+    <script src="script.js"></script>
+</body>
+</html>
